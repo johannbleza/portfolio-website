@@ -1,0 +1,43 @@
+section{
+    height: 100vh;
+}
+
+#about h5{
+    font-size: 1rem;
+    padding-top: 3rem;
+}
+
+#about h1{
+    font-size: 3rem;
+}
+
+.about-img{
+    border-radius: 2rem;
+}
+
+.about-icon{
+    font-size: 2rem;
+}
+
+.about-card {
+    background: rgba(28, 37, 79, 0.635);
+    border-radius: 1rem;
+    margin: 1rem;
+    transition: 400ms ease;
+    border: 2px solid transparent;
+
+}
+
+.about-card:hover {
+    background: rgba(13, 18, 59, 0.408);
+    border: 2px solid rgba(28, 37, 79, 0.635);
+    cursor: default;
+}
+
+/* ======= LARGE DEVICES MEDIA QUERIES ============== */
+/* @media only screen and (min-width: 992px) {
+    .about-card {
+        padding: 2rem;
+        
+    }
+} */
