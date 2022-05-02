@@ -1,0 +1,19 @@
+header{
+    height: 100vh;
+    padding: 20%;
+    
+}
+
+header h4{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+header h1{
+    color: whitesmoke;
+}
+header h5{
+    font-size: 1rem;
+    color: grey;
+}
+
