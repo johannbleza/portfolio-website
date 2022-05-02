@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import me from './../../assets/me.jpg'
+import me from './../../assets/me.png'
 import { BsPeopleFill } from 'react-icons/bs'
 import { FiAward } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -36,7 +36,7 @@ const About = () => {
 
                       </div>
                       <div className="row">
-                          <p className='p-5 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam nihil eos dicta harum fuga, explicabo ea. Fugit officiis aperiam eum minima commodi, adipisci expedita maxime harum sint molestias quis perspiciatis quaerat? Soluta molestias saepe cupiditate unde? Alias fugit consequuntur, ipsam omnis, recusandae atque saepe eligendi dolore, voluptatum dignissimos nam.</p>
+                          <p className='p-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam nihil eos dicta harum fuga, explicabo ea. Fugit officiis aperiam eum minima commodi, adipisci expedita maxime harum sint molestias quis perspiciatis quaerat? Soluta molestias saepe cupiditate unde? Alias fugit consequuntur, ipsam omnis, recusandae atque saepe eligendi dolore, voluptatum dignissimos nam.</p>
                       </div>
                 </div>
             </div>
