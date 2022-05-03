@@ -24,3 +24,7 @@
     background: rgba(6, 6, 6, 0.451);
     border: 1px solid white;
 }
+
+.send-message{
+    text-decoration: underline;
+}
