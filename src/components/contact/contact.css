@@ -1,0 +1,26 @@
+#contact h5 {
+    font-size: 1rem;
+    padding-top: 4rem;
+    color: gray;
+}
+
+#contact h1 {
+    font-size: 3rem;
+}
+
+.contact-icons{
+    font-size: 2rem;
+}
+
+.contact-card{
+    background: rgba(98, 98, 98, 0.275);
+    border-radius: 2rem;
+    padding: 1rem;
+    border: 1px solid transparent;
+    transition: 400ms ease;
+}
+
+.contact-card:hover{
+    background: rgba(6, 6, 6, 0.451);
+    border: 1px solid white;
+}
