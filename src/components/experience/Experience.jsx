@@ -6,10 +6,10 @@ const Experience = () => {
   return (
     <section id='experience' className='text-center'>
         <h5 className='mt-2'>What Skills I have</h5>
-        <h1 className='mb-5'>My Experience</h1>
+        <h1 className='mb-4'>My Experience</h1>
         <div className="container">
             <div className="row justify-content-center">
-                <div className="col-12 col-md-5 experience-card">
+                <div className="col-11 col-lg-5 experience-card">
                     <h2>Front-End Development</h2>
                     <div className="row">
                     <div className="col-6 pt-5">
@@ -22,7 +22,7 @@ const Experience = () => {
                     </div>
                     <div className="col-6 pt-5">
                         <h4>Javascript</h4>
-                        <small>Experienced</small>
+                        <small>Intermediate</small>
                     </div>
                     <div className="col-6 pt-5">
                         <h4>Bootstrap</h4>
@@ -30,16 +30,16 @@ const Experience = () => {
                     </div>
                     <div className="col-6 pt-5">
                         <h4>React</h4>
-                        <small>Experienced</small>
+                        <small>Intermediate</small>
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-5 experience-card">
+                <div className="col-11 col-lg-5 experience-card">
                     <h2>Back-End Development</h2>
                     <div className="row">
                     <div className="col-6 pt-5">
                         <h4>Javascript</h4>
-                        <small>Experienced</small>
+                        <small>Intermediate</small>
                     </div>
                     <div className="col-6 pt-5">
                         <h4>MongoDB</h4>
@@ -47,11 +47,11 @@ const Experience = () => {
                     </div>
                     <div className="col-6 pt-5">
                         <h4>Node JS</h4>
-                        <small>Experienced</small>
+                        <small>Intermediate</small>
                     </div>
                     <div className="col-6 pt-5">
                         <h4>Express JS</h4>
-                        <small>Experienced</small>
+                        <small>Intermediate</small>
                     </div>
                     </div>
                 </div>

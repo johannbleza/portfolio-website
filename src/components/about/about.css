@@ -31,3 +31,7 @@
 .about-card small{
     color: gray;
 }
+
+.paragraph{
+    text-align: justify;
+}

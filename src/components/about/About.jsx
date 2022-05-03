@@ -13,10 +13,10 @@ const About = () => {
         <h1 className='mb-5'>About Me</h1>
         <div className="container">
             <div className="row"> 
-                <div className="col-12 col-lg-4">
+                <div className="col-12 col-lg-5">
                       <img src={me} alt="" className='img-fluid about-img' />
                 </div>
-                <div className="col-12 col-lg-8">
+                <div className="col-12 col-lg-7 mt-4">
                       <div className="row d-flex justify-content-center">
                           <div className="col-11 col-lg-3 about-card p-4 mt-3">
                               <FiAward className='about-icon m-2' />
@@ -35,8 +35,10 @@ const About = () => {
                           </div>
 
                       </div>
-                      <div className="row">
-                          <p className='p-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam nihil eos dicta harum fuga, explicabo ea. Fugit officiis aperiam eum minima commodi, adipisci expedita maxime harum sint molestias quis perspiciatis quaerat? Soluta molestias saepe cupiditate unde? Alias fugit consequuntur, ipsam omnis, recusandae atque saepe eligendi dolore, voluptatum dignissimos nam.</p>
+                      <div className="row justify-content-center">
+                          <div className="col-12 col-md-11">
+                              <p className='p-4 paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam nihil eos dicta harum fuga, explicabo ea. Fugit officiis aperiam eum minima commodi, adipisci expedita maxime harum sint molestias quis perspiciatis quaerat? Soluta molestias saepe cupiditate unde? Alias fugit consequuntur, ipsam omnis, recusandae atque saepe eligendi dolore, voluptatum dignissimos nam.</p>
+                          </div>
                       </div>
                 </div>
             </div>

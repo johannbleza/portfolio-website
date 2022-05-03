@@ -1,6 +1,6 @@
 #experience h5 {
     font-size: 1rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
     color: gray;
 }
 
@@ -11,8 +11,8 @@
 .experience-card{
     background: rgba(255, 255, 255, 0.137);
     border-radius: 2rem;
-    padding: 3rem;
-    margin: 2rem;
+    padding: 2rem;
+    margin: 1rem;
     border: 2px solid transparent;
     transition: 400ms ease;
 }
@@ -21,3 +21,9 @@
     background: rgba(25, 25, 25, 0.451);
     border: 2px solid white;
 }
+
+.experience-card small{
+    color: lightgray;
+}
+
+
