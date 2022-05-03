@@ -7,7 +7,23 @@ const data = [
     id: 1,
     image: img1,
     title: "React Porfolio Website",
-    info: "A personal porfolio website made from React  JS",
+    info: "A responsive porfolio website made from HTML, CSS & React.js",
+    github: 'https://github.com/johannbleza/portfolio-website',
+    demo: 'https://portfolio-website-gray-ten.vercel.app/'
+  },
+  {
+    id: 2,
+    image: img1,
+    title: "MERN E-Commerce Website",
+    info: "A fully functional E-Commerce Application using MongoDB, Express.js, React.js and Node.js",
+    github: 'https://github.com/johannbleza/portfolio-website',
+    demo: 'https://portfolio-website-gray-ten.vercel.app/'
+  },
+  {
+    id: 3,
+    image: img1,
+    title: "E-Commerce REST API",
+    info: "A Node.js E-Commerce App REST API with MongoDB",
     github: 'https://github.com/johannbleza/portfolio-website',
     demo: 'https://portfolio-website-gray-ten.vercel.app/'
   }
@@ -29,11 +45,11 @@ const Projects = () => {
                     <img src={image} alt="" className='img-fluid porfolio-img' />
                     <div className='m-4'>
                       <h3>{title}</h3>
-                      <p className='paragraph mt-3'>{info}</p>
+                      <p className='paragraph mt-3 card-paragraph'>{info}</p>
                     </div>
                     <div className='d-flex justify-content-center'>
-                      <a href={github} className='button'>Github</a>
-                      <a href={demo} className='button button-primary'>Live Demo</a>
+                      <a href={github} target='_blank' className='button'>Github</a>
+                      <a href={demo} target='_blank' className='button button-primary'>Live Demo</a>
                     </div>
                   </div>
                 )

@@ -17,8 +17,7 @@
 
 .porfolio-img{
     border-radius: 1rem;
-    border: 1px solid lightgray;
-    height: 25vh;
+    /* border: 1px solid lightgray; */
 }
 
 .porfolio-card:hover {
@@ -26,3 +25,4 @@
     border: 1px solid white;
     cursor: default;
 }
+
