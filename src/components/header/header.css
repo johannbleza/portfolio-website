@@ -1,6 +1,6 @@
 header{
-    height: 100vh;
-    padding-top: 15%;
+    padding-top: 30%;
+    height: 95vh;
     
 }
 
@@ -18,3 +18,12 @@ header h5{
     color: grey;
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    header {
+        padding-top: 15%;
+        height: 100vh;
+    }
+
+}
