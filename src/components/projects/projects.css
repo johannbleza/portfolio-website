@@ -1,0 +1,28 @@
+#projects h5 {
+    font-size: 1rem;
+    padding-top: 4rem;
+    color: gray;
+}
+
+#projects h1 {
+    font-size: 4rem;
+}
+
+.porfolio-card{
+    background: rgba(0, 0, 0, 0.346);
+    border-radius: 1rem;
+    border: 1px solid gray;
+    transition: 400ms ease;
+}
+
+.porfolio-img{
+    border-radius: 1rem;
+    border: 1px solid lightgray;
+    height: 25vh;
+}
+
+.porfolio-card:hover {
+    background: rgba(219, 219, 219, 0.084);
+    border: 1px solid white;
+    cursor: default;
+}

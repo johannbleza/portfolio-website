@@ -20,6 +20,7 @@
 .experience-card:hover{
     background: rgba(25, 25, 25, 0.451);
     border: 2px solid white;
+    cursor: default;
 }
 
 .experience-card small{
