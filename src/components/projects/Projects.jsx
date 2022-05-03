@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import img1 from './../../assets/project1.png'
+import img2 from './../../assets/project2.png'
 
 const data = [
   {
@@ -13,19 +14,19 @@ const data = [
   },
   {
     id: 2,
-    image: img1,
+    image: img2,
     title: "MERN E-Commerce Website",
     info: "A fully functional E-Commerce Application using MongoDB, Express.js, React.js and Node.js",
-    github: 'https://github.com/johannbleza/portfolio-website',
-    demo: 'https://portfolio-website-gray-ten.vercel.app/'
+    github: 'https://github.com/johannbleza/e-commerce-website',
+    demo: 'https://e-commerce-one-zeta.vercel.app/'
   },
   {
     id: 3,
-    image: img1,
+    image: img2,
     title: "E-Commerce REST API",
     info: "A Node.js E-Commerce App REST API with MongoDB",
-    github: 'https://github.com/johannbleza/portfolio-website',
-    demo: 'https://portfolio-website-gray-ten.vercel.app/'
+    github: 'https://github.com/johannbleza/e-commerce-api',
+    demo: 'https://e-commerce-one-zeta.vercel.app/'
   }
 ]
 

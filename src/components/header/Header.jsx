@@ -10,7 +10,7 @@ const Header = () => {
         <h5>Full Stack Developer</h5>
         <div className='mt-3'>
             <a href={cv} download className='button'>Download CV</a>
-            <a href="" className='button-primary button'>Contact Me</a>
+            <a href="#contact" className='button-primary button'>Contact Me</a>
         </div>
     </header>
   )

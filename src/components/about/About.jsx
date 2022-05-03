@@ -21,23 +21,29 @@ const About = () => {
                           <div className="col-11 col-lg-3 about-card p-4 mt-3">
                               <FiAward className='about-icon m-2' />
                               <h4>Experience</h4>
-                              <small>4+ Months Coding</small>
+                              <small>5+ Months Coding</small>
                           </div>
                           <div className="col-11 col-lg-3 about-card p-4 mt-3">
                               <BsPeopleFill className='about-icon m-2' />
                               <h4>Clients</h4>
-                              <small>10+ Clients</small>
+                              <small>2+ Clients</small>
                           </div>
                           <div className="col-11 col-lg-3 about-card p-4 mt-3">
                               <VscFolderLibrary className='about-icon m-2' />
                               <h4>Projects</h4>
-                              <small>5 Projects Completed</small>
+                              <small>3 Projects Completed</small>
                           </div>
 
                       </div>
                       <div className="row justify-content-center">
                           <div className="col-12 col-md-11">
-                              <p className='p-4 paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam nihil eos dicta harum fuga, explicabo ea. Fugit officiis aperiam eum minima commodi, adipisci expedita maxime harum sint molestias quis perspiciatis quaerat? Soluta molestias saepe cupiditate unde? Alias fugit consequuntur, ipsam omnis, recusandae atque saepe eligendi dolore, voluptatum dignissimos nam.</p>
+                              <p className='p-4 paragraph'>Hey! I’m Johann Seatiel Bleza.
+
+                                  I’m a web developer currently based in the Philippines. I gathered my first working experience in freelance. When it comes to my design, I strive to bring the best of both worlds that are known for their refined simplicity and thoughtful design.
+
+                                  Proficient in graphic design and programming. I’m fascinated with the logic and structure of coding.
+
+                                  In my leisure time, I enjoy a fresh cup of coffee, watching movies, and playing video games.</p>
                           </div>
                       </div>
                 </div>
