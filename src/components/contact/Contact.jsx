@@ -30,6 +30,7 @@ const Contact = () => {
                           <AiFillPhone className='contact-icons' />
                           <h4 className='pt-3'>Phone</h4>
                           <p className='pt-2'>+639266986282</p>
+                          <a href="sms:+639266986282" target='_blank' className='send-message'>Send a message</a>
                     </div>
                 </div>
             </div>
