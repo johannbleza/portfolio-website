@@ -18,17 +18,17 @@ const About = () => {
                 </div>
                 <div className="col-12 col-lg-7 mt-4">
                       <div className="row d-flex justify-content-center">
-                          <div className="col-11 col-lg-3 about-card p-4 mt-3">
+                          <div className="col-11 col-lg-5 about-card p-4 mt-3">
                               <FiAward className='about-icon m-2' />
                               <h4>Experience</h4>
                               <small>5+ Months Coding</small>
                           </div>
-                          <div className="col-11 col-lg-3 about-card p-4 mt-3">
+                          {/* <div className="col-11 col-lg-5 about-card p-4 mt-3">
                               <BsPeopleFill className='about-icon m-2' />
                               <h4>Clients</h4>
                               <small>2+ Clients</small>
-                          </div>
-                          <div className="col-11 col-lg-3 about-card p-4 mt-3">
+                          </div> */}
+                          <div className="col-11 col-lg-5 about-card p-4 mt-3">
                               <VscFolderLibrary className='about-icon m-2' />
                               <h4>Projects</h4>
                               <small>3 Projects Completed</small>

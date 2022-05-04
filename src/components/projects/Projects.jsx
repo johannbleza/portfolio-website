@@ -34,7 +34,7 @@ const data = [
 const Projects = () => {
   return (
     <section id='projects' className='text-center'>
-        <h5 className='mt-2'>My Recent Work</h5>
+        <h5>My Recent Work</h5>
         <h1 className='mb-4'>Portfolio</h1>
 
         <div className="container-fluid">
